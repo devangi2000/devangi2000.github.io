@@ -1,0 +1,187 @@
+*{
+  list-style:none;
+
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 12px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #e7e7e7;
+  background: rgb(19, 19, 19);
+}
+.skills h1{
+  font-size: 4rem;
+  margin: 1rem 0;
+  color: rgba(249, 105, 14, 1);
+  background: linear-gradient(
+    to right,
+    rgba(249, 105, 14, 1) 0%,
+    rgba(102, 51, 153, 1) 50%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills{
+  width: 500px;
+  margin: 60px auto;
+  color: #b8dee0;
+  align-items: center;
+  justify-content: center;
+  margin: 5 1.45rem 5rem 1.45rem;
+}
+
+.skills li{
+  margin: 20px 0;
+}
+
+
+
+.bar{
+  background: #353b48
+  height: 8px;
+  display: block;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+  height: 2px;
+  float: left;
+  background: #2187e7b3;
+}
+
+.html{
+  width:60%;
+  animation: html 2s;
+}
+.css{
+  width: 50%;
+  animation: css 2s;
+}
+.python{
+  width: 80%;
+  animation: python 2s;
+}
+.c{
+  width: 70%;
+  animation: c 2s;
+}
+.c2{
+  width: 75%;
+  animation: c2 2s;
+}
+.ml{
+  width: 60%;
+  animation: ml 2s;
+}
+.dl{
+  width: 50%;
+  animation: dl 2s;
+}
+.ds{
+  width: 60%;
+  animation: ds 2s;
+}
+.ps{
+  width: 60%;
+  animation: ps 2s;
+}
+.dsa{
+  width: 75%;
+  animation: dsa 2s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes python{
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes c {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+@keyframes c2 {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+@keyframes ml {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes dl {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes ds {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes ps{
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes dsa {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}

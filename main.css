@@ -18,6 +18,10 @@ html {
   color: #e7e7e7;
   background: rgb(19, 19, 19);
 }
+#particles-js{
+  height: 100%;
+  background: rgb(19, 19, 19);
+}
 
 a {
   text-decoration: none;
@@ -224,18 +228,18 @@ nav {
   overflow: hidden;
   white-space: nowrap;
   animation: typing 5s steps(27), blink 1s ease-in-out 7s infinite;
-  width: 27ch;
+  width: 30ch;
   margin: auto;
   border-right: 4px solid rgba(255, 255, 255, 1);
 }
 
 @keyframes typing {
-  75% {
-    width: 0ch;
+  10% {
+    width: 5ch;
     color: rgba(249, 105, 14, 1);
   }
   100% {
-    width: 27ch;
+    width: 30ch;
   }
 }
 
@@ -267,8 +271,9 @@ nav {
   font-weight: 400;
 }
 
+
 .intro-btn {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
 }
 
@@ -370,11 +375,24 @@ hr {
 .title-heading h2 {
   font-size: 2rem;
   margin: 0.5rem 0 1rem 0;
+  background: linear-gradient(
+    to right,
+    rgba(249, 105, 14, 1) 0%,
+    rgba(102, 51, 153, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 .title-heading p {
   font-family: "Poppins", sans-serif;
   margin-bottom: 5rem;
+}
+.title-heading li{
+  height: 30px;
+  padding: 5px;
+
 }
 
 .service-tiers {
@@ -426,6 +444,12 @@ hr {
 .has-margin-right {
   margin: 0 3rem 0 0;
 }
+.has-margin-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1.45rem 5rem 1.45rem;
+}
 
 .project-item {
   display: flex;
@@ -448,7 +472,7 @@ hr {
   background: linear-gradient(
     to right,
     rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgba(102, 51, 153, 1) 70%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
