@@ -104,6 +104,31 @@ html {
   animation: dsa 2s;
 }
 
+.tensorflow{
+  width: 65%;
+  animation: tensorflow 2s;
+}
+
+.keras{
+  width: 65%;
+  animation: keras 2s;
+}
+
+.pytorch{
+  width: 50%;
+  animation: pytorch 2s;
+}
+
+.flask{
+  width: 50%;
+  animation: flask 2s;
+}
+
+.streamlit{
+  width: 50%;
+  animation: streamlit 2s;
+}
+
 @keyframes html {
   0% {
     width: 0%;
@@ -183,5 +208,52 @@ html {
   }
   100%{
     width: 75%;
+  }
+}
+
+@keyframes tensorflow {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 65%;
+  }
+}
+
+
+@keyframes keras {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 65%;
+  }
+}
+
+
+@keyframes pytorch {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+@keyframes flask {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+@keyframes streamlit {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 50%;
   }
 }
